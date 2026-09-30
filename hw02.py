@@ -35,9 +35,9 @@ def main ():
     #  Add one line below to call read_two_ints (note that it returns two values)
     #  the call should provide no arguments
     #  store the returned values into two variables: x and y
-    read_two_ints()
+    x,y = read_two_ints()
     # TODO: add your call instead of this line
-    xy_multadd = compute_multadd(x, y)
+    xy_multadd = compute_multadd(x,y)
     # Task 2.2:
     #  Add one line below to call multadd (note that it returns one value)
     #  the call should provide the arguments x, and y you obtained above;
