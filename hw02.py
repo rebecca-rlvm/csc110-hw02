@@ -25,11 +25,11 @@ def compute_multadd(a, b):
     
     #Calculating the numerator and printing the result
     nmrtr=a*b
-    print("mult result: ",nmrtr)
+    print("mult result:",nmrtr)
     
     #Calculating the denomenator and printing the result
     dnmtr=a+b
-    print("add result: ",dnmtr)
+    print("add result:",dnmtr)
     
     #Dividing and returning the result
     return nmrtr/dnmtr
@@ -43,9 +43,9 @@ def print_fancy(a, b, ab_multadd):
     #Printing all of the results on a different line
     print("*"*16)
     print("RESULTS:")
-    print("first number: ",a)
-    print("second number: ",b)
-    print("multadd result: ",ab_multadd)
+    print("first number:",a)
+    print("second number:",b)
+    print("multadd result:",ab_multadd)
     print("="*16)
 
 def main ():
