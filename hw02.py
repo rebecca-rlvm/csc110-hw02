@@ -22,7 +22,7 @@ def read_two_ints():
 #  Complete the function "compute_multadd" below:
 def compute_multadd(a, b):
     # ADD a Docstring for this function
-    """Find the numberator and denomator of (x*y)/(x+y), based off user inputs, and then print the complete equation result."""
+    """Find the numberator and denomator of (x*y)/(x+y), based off user inputs, and then return the complete equation result."""
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     
@@ -53,7 +53,10 @@ def print_fancy(a, b, ab_multadd):
     print("="*16)
 
 def main ():
-    # ADD a Docstring for this function
+    """Main function:
+    calls all the functions;
+    stores x, y, and xy_multadd as varialbes within the main function so they can be applied to other functions;
+    prints 'The End'"""
     # Task 1.2:
     #  Add one line below to call read_two_ints (note that it returns two values)
     #  the call should provide no arguments
