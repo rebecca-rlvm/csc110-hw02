@@ -1,7 +1,9 @@
+# Rebecca Morrison
 # Task 1.1:
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
     # ADD a Docstring for this function
+    """Get the input of x and y and cast them as integers"""
     # the return shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     
@@ -20,6 +22,7 @@ def read_two_ints():
 #  Complete the function "compute_multadd" below:
 def compute_multadd(a, b):
     # ADD a Docstring for this function
+    """Find the numberator and denomator of (x*y)/(x+y), based off user inputs, and then print the complete equation result."""
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     
@@ -36,6 +39,7 @@ def compute_multadd(a, b):
 # Task 3.1:
 #  Complete the function "print_fancy" below:
 def print_fancy(a, b, ab_multadd):
+    """Print the user inputs and the final result, encompassed by a line of * and ="""
     # ADD a Docstring for this function
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
